@@ -1,8 +1,11 @@
 package eu.vytenis.opendata.experiments;
 
 import java.io.File;
-import java.io.FileReader;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.Reader;
+import java.nio.charset.StandardCharsets;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -12,6 +15,7 @@ import java.util.List;
 
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
+import org.apache.commons.io.input.BOMInputStream;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -42,7 +46,9 @@ public class UploaderTest {
 
     private CSVParser loadCsv() throws IOException {
         File file = new File("../modules/vilnius/darzeliai/data/darzeliai.csv");
-        FileReader reader = new FileReader(file);
+        FileInputStream fis = new FileInputStream(file);
+        BOMInputStream bis = new BOMInputStream(fis);
+        Reader reader = new InputStreamReader(bis, StandardCharsets.UTF_8);
         CSVParser csv = CSVFormat.EXCEL.withFirstRecordAsHeader().parse(reader);
         return csv;
     }
