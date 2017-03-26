@@ -1,0 +1,9 @@
+[submodule "modules/Kauno-miestas/KMS-duomenys"]
+	path = modules/Kauno-miestas/KMS-duomenys
+	url = git@github.com:Kauno-miestas/KMS-duomenys.git
+[submodule "modules/vilnius/darzeliai"]
+	path = modules/vilnius/darzeliai
+	url = git@github.com:vilnius/darzeliai.git
+[submodule "modules/vilnius/biudzetas"]
+	path = modules/vilnius/biudzetas
+	url = git@github.com:vilnius/biudzetas.git
