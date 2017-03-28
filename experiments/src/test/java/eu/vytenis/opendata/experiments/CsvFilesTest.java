@@ -11,12 +11,12 @@ import org.junit.Test;
 public class CsvFilesTest {
     @Test
     public void allFilesArePresent() {
-        assertReadable(CsvFiles.DARZELIAI);
-        assertReadable(CsvFiles.DARZELIAI_GRUPES);
-        assertReadable(CsvFiles.GRUPES);
-        assertReadable(CsvFiles.ISTAIGOS);
-        assertReadable(CsvFiles.PRIORITETAI);
-        assertReadable(CsvFiles.PRASYMAI);
+        assertReadable(CsvFiles.darzeliai());
+        assertReadable(CsvFiles.darzeliaiGrupes());
+        assertReadable(CsvFiles.grupes());
+        assertReadable(CsvFiles.istaigos());
+        assertReadable(CsvFiles.prioritetai());
+        assertReadable(CsvFiles.prasymai());
     }
 
     private void assertReadable(String darzeliai) {

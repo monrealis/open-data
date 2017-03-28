@@ -43,12 +43,12 @@ public class UploaderTest {
 
     @Test
     public void darzeliai() throws IOException, SQLException {
-        fill(CsvFiles.DARZELIAI);
+        fill(CsvFiles.darzeliai());
     }
 
     @Test
     public void darzeliaiGrupes() throws IOException, SQLException {
-        fill(CsvFiles.PRASYMAI);
+        fill(CsvFiles.prasymai());
     }
 
     private void fill(String filename) throws FileNotFoundException, IOException, SQLException {
