@@ -10,8 +10,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.ArrayList;
-import java.util.List;
 
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
@@ -54,10 +52,33 @@ public class UploaderTest {
     }
 
     private void createTable() throws SQLException {
-        statement.executeUpdate("drop table if exists test");
-        List<String> columns = new ArrayList<String>(input.getHeaderMap().keySet());
-        String createTableDdl = String.format("create table test (%s varchar)", columns.get(0));
+        Csv csv = new Csv(input, "test");
+        statement.executeUpdate(csv.getDropTableIfExistsDdl());
+        String createTableDdl = csv.getCreateTableDdl();
         System.out.println(createTableDdl);
         statement.executeUpdate(createTableDdl);
+    }
+
+    public static class Csv {
+        private final CSVParser parser;
+        private final String tableName;
+
+        public Csv(CSVParser parser, String tableName) {
+            this.parser = parser;
+            this.tableName = tableName;
+        }
+
+        public String getDropTableIfExistsDdl() {
+            return String.format("drop table if exists %s", tableName);
+        }
+
+        public String getCreateTableDdl() {
+            String createTableDdl = String.format("create table %s (%s)", tableName, getColumnsDdl());
+            return createTableDdl;
+        }
+
+        private String getColumnsDdl() {
+            return String.format("%s varchar", parser.getHeaderMap().keySet().iterator().next());
+        }
     }
 }
