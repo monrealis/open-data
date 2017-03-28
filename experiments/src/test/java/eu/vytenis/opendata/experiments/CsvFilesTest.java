@@ -11,10 +11,18 @@ import org.junit.Test;
 public class CsvFilesTest {
     @Test
     public void allFilesArePresent() {
-        Path path = new File(CsvFiles.DARZELIAI).toPath();
+        assertReadable(CsvFiles.DARZELIAI);
+        assertReadable(CsvFiles.DARZELIAI_GRUPES);
+        assertReadable(CsvFiles.GRUPES);
+        assertReadable(CsvFiles.ISTAIGOS);
+        assertReadable(CsvFiles.PRIORITETAI);
+        assertReadable(CsvFiles.PRASYMAI);
+    }
+
+    private void assertReadable(String darzeliai) {
+        Path path = new File(darzeliai).toPath();
         assertTrue(Files.exists(path));
         assertTrue(Files.isReadable(path));
-        
     }
 
 }
