@@ -52,7 +52,7 @@ public class UploaderTest {
     }
 
     private CSVParser loadCsv() throws IOException {
-        File file = new File(Files.DARZELIAI);
+        File file = new File(CsvFiles.DARZELIAI);
         FileInputStream fis = new FileInputStream(file);
         BOMInputStream bis = new BOMInputStream(fis);
         Reader reader = new InputStreamReader(bis, StandardCharsets.UTF_8);
