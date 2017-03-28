@@ -10,6 +10,8 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
@@ -17,6 +19,8 @@ import org.apache.commons.io.input.BOMInputStream;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+
+import com.google.common.base.Joiner;
 
 public class UploaderTest {
     private Connection connection;
@@ -73,12 +77,15 @@ public class UploaderTest {
         }
 
         public String getCreateTableDdl() {
-            String createTableDdl = String.format("create table %s (%s)", tableName, getColumnsDdl());
+            String createTableDdl = String.format("create table %s (\n%s\n)", tableName, getColumnsDdl());
             return createTableDdl;
         }
 
         private String getColumnsDdl() {
-            return String.format("%s varchar", parser.getHeaderMap().keySet().iterator().next());
+            List<String> columns = new ArrayList<>();
+            for (String column : parser.getHeaderMap().keySet())
+                columns.add(String.format("  %s %s", column, "varchar"));
+            return Joiner.on(",\n").join(columns);
         }
     }
 }
