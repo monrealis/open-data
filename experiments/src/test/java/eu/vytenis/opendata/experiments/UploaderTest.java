@@ -2,6 +2,7 @@ package eu.vytenis.opendata.experiments;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.Reader;
@@ -25,6 +26,7 @@ public class UploaderTest {
     private Statement statement;
     private CSVParser input;
     private CsvSqls csv;
+    private PreparedStatement insertStatement;
 
     @Before
     public void before() throws ClassNotFoundException, SQLException {
@@ -40,15 +42,28 @@ public class UploaderTest {
     }
 
     @Test
-    public void run() throws IOException, SQLException {
-        input = loadCsv();
+    public void darzeliai() throws IOException, SQLException {
+        fill(CsvFiles.DARZELIAI);
+    }
+
+    @Test
+    public void darzeliaiGrupes() throws IOException, SQLException {
+        fill(CsvFiles.PRASYMAI);
+    }
+
+    private void fill(String filename) throws FileNotFoundException, IOException, SQLException {
+        input = loadCsv(filename);
+        fill();
+    }
+
+    private void fill() throws SQLException, IOException {
         csv = new CsvSqls(input, "test");
         createTable();
         insertRows();
     }
 
-    private CSVParser loadCsv() throws IOException {
-        File file = new File(CsvFiles.DARZELIAI);
+    private CSVParser loadCsv(String fileName) throws FileNotFoundException, IOException {
+        File file = new File(fileName);
         FileInputStream fis = new FileInputStream(file);
         BOMInputStream bis = new BOMInputStream(fis);
         Reader reader = new InputStreamReader(bis, StandardCharsets.UTF_8);
@@ -65,12 +80,23 @@ public class UploaderTest {
 
     private void insertRows() throws IOException, SQLException {
         System.out.println(csv.getInsertDml());
-        PreparedStatement ps = connection.prepareStatement(csv.getInsertDml());
-        for (CSVRecord record : input.getRecords()) {
-            for (int i = 0; i < record.size(); ++i)
-                ps.setString(i + 1, record.get(i));
-            ps.executeUpdate();
+        insertStatement = connection.prepareStatement(csv.getInsertDml());
+        for (CSVRecord record : input.getRecords())
+            insert(record);
+        insertStatement.close();
+    }
+
+    private void insert(CSVRecord record) throws SQLException {
+        if (record.size() != getNumberOfColumns()) {
+            System.err.println("Skip");
+            return;
         }
-        ps.close();
+        for (int i = 0; i < record.size(); ++i)
+            insertStatement.setString(i + 1, record.get(i));
+        insertStatement.executeUpdate();
+    }
+
+    private int getNumberOfColumns() {
+        return input.getHeaderMap().size();
     }
 }

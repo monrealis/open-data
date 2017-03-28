@@ -28,8 +28,17 @@ public class CsvSqls {
     private String getColumnsDdl() {
         List<String> columns = new ArrayList<>();
         for (String column : getColumnHeaders())
-            columns.add(String.format("  %s %s", column, "varchar"));
+            columns.add(String.format("  %s %s", getValidColumnName(column), "varchar"));
         return Joiner.on(",\n").join(columns);
+    }
+
+    private String getValidColumnName(String initialName) {
+        String name = initialName.replaceAll("\\s|\\.", "");
+        name = name.replaceAll("\\(|\\)", "");
+        name = name.replaceAll("/", "");
+        if (name.matches("^[0-9].*"))
+            name = "_" + name;
+        return name;
     }
 
     String getInsertDml() {

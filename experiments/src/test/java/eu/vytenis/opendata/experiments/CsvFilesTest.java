@@ -24,5 +24,4 @@ public class CsvFilesTest {
         assertTrue(Files.exists(path));
         assertTrue(Files.isReadable(path));
     }
-
 }
