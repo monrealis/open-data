@@ -37,7 +37,7 @@ public class CsvSqls {
         name = name.replaceAll("\\(|\\)", "");
         name = name.replaceAll("/", "");
         if (name.matches("^[0-9].*"))
-            name = "_" + name;
+            name = "_sk" + name;
         return name;
     }
 
