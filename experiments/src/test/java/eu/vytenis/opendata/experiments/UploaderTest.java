@@ -47,7 +47,7 @@ public class UploaderTest {
     }
 
     @Test
-    public void darzeliaiGrupes() throws IOException, SQLException {
+    public void prasymai() throws IOException, SQLException {
         fill(CsvFiles.prasymai());
     }
 
