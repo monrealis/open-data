@@ -25,6 +25,7 @@ public class UploaderTest {
     private Connection connection;
     private Statement statement;
     private CSVParser input;
+    private String tableName;
     private CsvSqls csv;
     private PreparedStatement insertStatement;
 
@@ -43,21 +44,22 @@ public class UploaderTest {
 
     @Test
     public void darzeliai() throws IOException, SQLException {
-        fill(CsvFiles.darzeliai());
+        fill(CsvFiles.darzeliai(), "darzeliai");
     }
 
     @Test
     public void prasymai() throws IOException, SQLException {
-        fill(CsvFiles.prasymai());
+        fill(CsvFiles.prasymai(), "prasymai");
     }
 
-    private void fill(String filename) throws FileNotFoundException, IOException, SQLException {
+    private void fill(String filename, String tableName) throws FileNotFoundException, IOException, SQLException {
         input = loadCsv(filename);
+        this.tableName = tableName;
         fill();
     }
 
     private void fill() throws SQLException, IOException {
-        csv = new CsvSqls(input, "test");
+        csv = new CsvSqls(input, tableName);
         createTable();
         insertRows();
     }
