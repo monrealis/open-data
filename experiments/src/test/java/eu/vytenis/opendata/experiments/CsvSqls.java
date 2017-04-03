@@ -33,12 +33,7 @@ public class CsvSqls {
     }
 
     private String getValidColumnName(String initialName) {
-        String name = initialName.replaceAll("\\s|\\.", "");
-        name = name.replaceAll("\\(|\\)", "");
-        name = name.replaceAll("/", "");
-        if (name.matches("^[0-9].*"))
-            name = "_sk" + name;
-        return name;
+        return new ValidColumnNameFinder(initialName).getValidColumnName();
     }
 
     String getInsertDml() {
