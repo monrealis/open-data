@@ -1,18 +1,29 @@
 package eu.vytenis.opendata.experiments;
 
 public class ValidColumnNameFinder {
-    private final String initialName;
+    private String name;
 
     public ValidColumnNameFinder(String initialName) {
-        this.initialName = initialName;
+        name = initialName;
     }
 
-    String getValidColumnName() {
-        String name = initialName.replaceAll("\\s|\\.", "");
+    public String getValidColumnName() {
+        name = name.replaceAll("\\s|\\.", "");
         name = name.replaceAll("\\(|\\)", "");
         name = name.replaceAll("/", "");
         if (name.matches("^[0-9].*"))
             name = "_sk" + name;
-        return name;
+        return translateLithuanianCharacters(name);
+    }
+
+    private String translateLithuanianCharacters(String name) {
+        String source = "ąčęėįšųūžĄČĘĖĮŠŲŪŽ";
+        String target = "aceeisuuzACEEISUUZ";
+        char[] nameChars = name.toCharArray();
+        for (int i = 0; i < source.length(); ++i)
+            for (int j = 0; j < nameChars.length; ++j)
+                if (nameChars[j] == source.charAt(i))
+                    nameChars[j] = target.charAt(i);
+        return new String(nameChars);
     }
 }
