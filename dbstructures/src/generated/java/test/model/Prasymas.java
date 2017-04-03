@@ -5,7 +5,7 @@ public class Prasymas {
 
     private String registracijosnumeris;
 
-    private String prašymopateikimodata;
+    private String prasymopateikimodata;
 
     private String vaikoidentifikacinisnr;
 
@@ -19,111 +19,111 @@ public class Prasymas {
 
     private String prioritetasdeklaruotasmieste;
 
-    private String prioritetasšeimoje3irdaugiauvaikų;
+    private String prioritetasseimoje3irdaugiauvaiku;
 
-    private String prioritetasžemasdarbingumolygis;
+    private String prioritetaszemasdarbingumolygis;
 
-    private String prioritetasauginatikvienasištėvų;
+    private String prioritetasauginatikvienasistevu;
 
-    private String sk1pasirinktasdarželis;
+    private String sk1pasirinktasdarzelis;
 
-    private String sk1darželiovietaeilėje;
+    private String sk1darzeliovietaeileje;
 
-    private String sk1darželioseniūnija;
+    private String sk1darzelioseniunija;
 
-    private String sk1darželiogrupėsugdomojikalba;
+    private String sk1darzeliogrupesugdomojikalba;
 
-    private String sk1darželiogrupėsugdymometodika;
+    private String sk1darzeliogrupesugdymometodika;
 
-    private String sk1darželiogrupėstipas;
+    private String sk1darzeliogrupestipas;
 
-    private String sk1darželiogrupėsamžiausintervalas;
+    private String sk1darzeliogrupesamziausintervalas;
 
-    private String atitinka1darželiuipriskirtateritorija;
+    private String atitinka1darzeliuipriskirtateritorija;
 
-    private String sk1darželįlankobroliaiseserys;
+    private String sk1darzelilankobroliaiseserys;
 
-    private String tinkamųgrupių1darželyje;
+    private String tinkamugrupiu1darzelyje;
 
-    private String sk2pasirinktasdarželis;
+    private String sk2pasirinktasdarzelis;
 
-    private String sk2darželiovietaeilėje;
+    private String sk2darzeliovietaeileje;
 
-    private String sk2darželioseniūnija;
+    private String sk2darzelioseniunija;
 
-    private String sk2darželiogrupėsugdomojikalba;
+    private String sk2darzeliogrupesugdomojikalba;
 
-    private String sk2darželiogrupėsugdymometodika;
+    private String sk2darzeliogrupesugdymometodika;
 
-    private String sk2darželiogrupėstipas;
+    private String sk2darzeliogrupestipas;
 
-    private String sk2darželiogrupėsamžiausintervalas;
+    private String sk2darzeliogrupesamziausintervalas;
 
-    private String atitinka2darželiuipriskirtateritorija;
+    private String atitinka2darzeliuipriskirtateritorija;
 
-    private String sk2darželįlankobroliaiseserys;
+    private String sk2darzelilankobroliaiseserys;
 
-    private String tinkamųgrupių2darželyje;
+    private String tinkamugrupiu2darzelyje;
 
-    private String sk3pasirinktasdarželis;
+    private String sk3pasirinktasdarzelis;
 
-    private String sk3darželiovietaeilėje;
+    private String sk3darzeliovietaeileje;
 
-    private String sk3darželioseniūnija;
+    private String sk3darzelioseniunija;
 
-    private String sk3darželiogrupėsugdomojikalba;
+    private String sk3darzeliogrupesugdomojikalba;
 
-    private String sk3darželiogrupėsugdymometodika;
+    private String sk3darzeliogrupesugdymometodika;
 
-    private String sk3darželiogrupėstipas;
+    private String sk3darzeliogrupestipas;
 
-    private String sk3darželiogrupėsamžiausintervalas;
+    private String sk3darzeliogrupesamziausintervalas;
 
-    private String atitinka3darželiuipriskirtateritorija;
+    private String atitinka3darzeliuipriskirtateritorija;
 
-    private String sk3darželįlankobroliaiseserys;
+    private String sk3darzelilankobroliaiseserys;
 
-    private String tinkamųgrupių13darželyje;
+    private String tinkamugrupiu13darzelyje;
 
-    private String sk4pasirinktasdarželis;
+    private String sk4pasirinktasdarzelis;
 
-    private String sk4darželiovietaeilėje;
+    private String sk4darzeliovietaeileje;
 
-    private String sk4darželioseniūnija;
+    private String sk4darzelioseniunija;
 
-    private String sk4darželiogrupėsugdomojikalba;
+    private String sk4darzeliogrupesugdomojikalba;
 
-    private String sk4darželiogrupėsugdymometodika;
+    private String sk4darzeliogrupesugdymometodika;
 
-    private String sk4darželiogrupėstipas;
+    private String sk4darzeliogrupestipas;
 
-    private String sk4darželiogrupėsamžiausintervalas;
+    private String sk4darzeliogrupesamziausintervalas;
 
-    private String atitinka4darželiuipriskirtateritorija;
+    private String atitinka4darzeliuipriskirtateritorija;
 
-    private String sk4darželįlankobroliaiseserys;
+    private String sk4darzelilankobroliaiseserys;
 
-    private String tinkamųgrupių4darželyje;
+    private String tinkamugrupiu4darzelyje;
 
-    private String sk5pasirinktasdarželis;
+    private String sk5pasirinktasdarzelis;
 
-    private String sk5darželiovietaeilėje;
+    private String sk5darzeliovietaeileje;
 
-    private String sk5darželioseniūnija;
+    private String sk5darzelioseniunija;
 
-    private String sk5darželiogrupėsugdomojikalba;
+    private String sk5darzeliogrupesugdomojikalba;
 
-    private String sk5darželiogrupėsugdymometodika;
+    private String sk5darzeliogrupesugdymometodika;
 
-    private String sk5darželiogrupėstipas;
+    private String sk5darzeliogrupestipas;
 
-    private String sk5darželiogrupėsamžiausintervalas;
+    private String sk5darzeliogrupesamziausintervalas;
 
-    private String atitinka5darželiuipriskirtateritorija;
+    private String atitinka5darzeliuipriskirtateritorija;
 
-    private String sk5darželįlankobroliaiseserys;
+    private String sk5darzelilankobroliaiseserys;
 
-    private String tinkamųgrupių5darželyje;
+    private String tinkamugrupiu5darzelyje;
 
     public String getNr() {
         return nr;
@@ -141,12 +141,12 @@ public class Prasymas {
         this.registracijosnumeris = registracijosnumeris == null ? null : registracijosnumeris.trim();
     }
 
-    public String getPrašymopateikimodata() {
-        return prašymopateikimodata;
+    public String getPrasymopateikimodata() {
+        return prasymopateikimodata;
     }
 
-    public void setPrašymopateikimodata(String prašymopateikimodata) {
-        this.prašymopateikimodata = prašymopateikimodata == null ? null : prašymopateikimodata.trim();
+    public void setPrasymopateikimodata(String prasymopateikimodata) {
+        this.prasymopateikimodata = prasymopateikimodata == null ? null : prasymopateikimodata.trim();
     }
 
     public String getVaikoidentifikacinisnr() {
@@ -197,427 +197,427 @@ public class Prasymas {
         this.prioritetasdeklaruotasmieste = prioritetasdeklaruotasmieste == null ? null : prioritetasdeklaruotasmieste.trim();
     }
 
-    public String getPrioritetasšeimoje3irdaugiauvaikų() {
-        return prioritetasšeimoje3irdaugiauvaikų;
+    public String getPrioritetasseimoje3irdaugiauvaiku() {
+        return prioritetasseimoje3irdaugiauvaiku;
     }
 
-    public void setPrioritetasšeimoje3irdaugiauvaikų(String prioritetasšeimoje3irdaugiauvaikų) {
-        this.prioritetasšeimoje3irdaugiauvaikų = prioritetasšeimoje3irdaugiauvaikų == null ? null : prioritetasšeimoje3irdaugiauvaikų.trim();
+    public void setPrioritetasseimoje3irdaugiauvaiku(String prioritetasseimoje3irdaugiauvaiku) {
+        this.prioritetasseimoje3irdaugiauvaiku = prioritetasseimoje3irdaugiauvaiku == null ? null : prioritetasseimoje3irdaugiauvaiku.trim();
     }
 
-    public String getPrioritetasžemasdarbingumolygis() {
-        return prioritetasžemasdarbingumolygis;
+    public String getPrioritetaszemasdarbingumolygis() {
+        return prioritetaszemasdarbingumolygis;
     }
 
-    public void setPrioritetasžemasdarbingumolygis(String prioritetasžemasdarbingumolygis) {
-        this.prioritetasžemasdarbingumolygis = prioritetasžemasdarbingumolygis == null ? null : prioritetasžemasdarbingumolygis.trim();
+    public void setPrioritetaszemasdarbingumolygis(String prioritetaszemasdarbingumolygis) {
+        this.prioritetaszemasdarbingumolygis = prioritetaszemasdarbingumolygis == null ? null : prioritetaszemasdarbingumolygis.trim();
     }
 
-    public String getPrioritetasauginatikvienasištėvų() {
-        return prioritetasauginatikvienasištėvų;
+    public String getPrioritetasauginatikvienasistevu() {
+        return prioritetasauginatikvienasistevu;
     }
 
-    public void setPrioritetasauginatikvienasištėvų(String prioritetasauginatikvienasištėvų) {
-        this.prioritetasauginatikvienasištėvų = prioritetasauginatikvienasištėvų == null ? null : prioritetasauginatikvienasištėvų.trim();
+    public void setPrioritetasauginatikvienasistevu(String prioritetasauginatikvienasistevu) {
+        this.prioritetasauginatikvienasistevu = prioritetasauginatikvienasistevu == null ? null : prioritetasauginatikvienasistevu.trim();
     }
 
-    public String getSk1pasirinktasdarželis() {
-        return sk1pasirinktasdarželis;
+    public String getSk1pasirinktasdarzelis() {
+        return sk1pasirinktasdarzelis;
     }
 
-    public void setSk1pasirinktasdarželis(String sk1pasirinktasdarželis) {
-        this.sk1pasirinktasdarželis = sk1pasirinktasdarželis == null ? null : sk1pasirinktasdarželis.trim();
+    public void setSk1pasirinktasdarzelis(String sk1pasirinktasdarzelis) {
+        this.sk1pasirinktasdarzelis = sk1pasirinktasdarzelis == null ? null : sk1pasirinktasdarzelis.trim();
     }
 
-    public String getSk1darželiovietaeilėje() {
-        return sk1darželiovietaeilėje;
+    public String getSk1darzeliovietaeileje() {
+        return sk1darzeliovietaeileje;
     }
 
-    public void setSk1darželiovietaeilėje(String sk1darželiovietaeilėje) {
-        this.sk1darželiovietaeilėje = sk1darželiovietaeilėje == null ? null : sk1darželiovietaeilėje.trim();
+    public void setSk1darzeliovietaeileje(String sk1darzeliovietaeileje) {
+        this.sk1darzeliovietaeileje = sk1darzeliovietaeileje == null ? null : sk1darzeliovietaeileje.trim();
     }
 
-    public String getSk1darželioseniūnija() {
-        return sk1darželioseniūnija;
+    public String getSk1darzelioseniunija() {
+        return sk1darzelioseniunija;
     }
 
-    public void setSk1darželioseniūnija(String sk1darželioseniūnija) {
-        this.sk1darželioseniūnija = sk1darželioseniūnija == null ? null : sk1darželioseniūnija.trim();
+    public void setSk1darzelioseniunija(String sk1darzelioseniunija) {
+        this.sk1darzelioseniunija = sk1darzelioseniunija == null ? null : sk1darzelioseniunija.trim();
     }
 
-    public String getSk1darželiogrupėsugdomojikalba() {
-        return sk1darželiogrupėsugdomojikalba;
+    public String getSk1darzeliogrupesugdomojikalba() {
+        return sk1darzeliogrupesugdomojikalba;
     }
 
-    public void setSk1darželiogrupėsugdomojikalba(String sk1darželiogrupėsugdomojikalba) {
-        this.sk1darželiogrupėsugdomojikalba = sk1darželiogrupėsugdomojikalba == null ? null : sk1darželiogrupėsugdomojikalba.trim();
+    public void setSk1darzeliogrupesugdomojikalba(String sk1darzeliogrupesugdomojikalba) {
+        this.sk1darzeliogrupesugdomojikalba = sk1darzeliogrupesugdomojikalba == null ? null : sk1darzeliogrupesugdomojikalba.trim();
     }
 
-    public String getSk1darželiogrupėsugdymometodika() {
-        return sk1darželiogrupėsugdymometodika;
+    public String getSk1darzeliogrupesugdymometodika() {
+        return sk1darzeliogrupesugdymometodika;
     }
 
-    public void setSk1darželiogrupėsugdymometodika(String sk1darželiogrupėsugdymometodika) {
-        this.sk1darželiogrupėsugdymometodika = sk1darželiogrupėsugdymometodika == null ? null : sk1darželiogrupėsugdymometodika.trim();
+    public void setSk1darzeliogrupesugdymometodika(String sk1darzeliogrupesugdymometodika) {
+        this.sk1darzeliogrupesugdymometodika = sk1darzeliogrupesugdymometodika == null ? null : sk1darzeliogrupesugdymometodika.trim();
     }
 
-    public String getSk1darželiogrupėstipas() {
-        return sk1darželiogrupėstipas;
+    public String getSk1darzeliogrupestipas() {
+        return sk1darzeliogrupestipas;
     }
 
-    public void setSk1darželiogrupėstipas(String sk1darželiogrupėstipas) {
-        this.sk1darželiogrupėstipas = sk1darželiogrupėstipas == null ? null : sk1darželiogrupėstipas.trim();
+    public void setSk1darzeliogrupestipas(String sk1darzeliogrupestipas) {
+        this.sk1darzeliogrupestipas = sk1darzeliogrupestipas == null ? null : sk1darzeliogrupestipas.trim();
     }
 
-    public String getSk1darželiogrupėsamžiausintervalas() {
-        return sk1darželiogrupėsamžiausintervalas;
+    public String getSk1darzeliogrupesamziausintervalas() {
+        return sk1darzeliogrupesamziausintervalas;
     }
 
-    public void setSk1darželiogrupėsamžiausintervalas(String sk1darželiogrupėsamžiausintervalas) {
-        this.sk1darželiogrupėsamžiausintervalas = sk1darželiogrupėsamžiausintervalas == null ? null : sk1darželiogrupėsamžiausintervalas.trim();
+    public void setSk1darzeliogrupesamziausintervalas(String sk1darzeliogrupesamziausintervalas) {
+        this.sk1darzeliogrupesamziausintervalas = sk1darzeliogrupesamziausintervalas == null ? null : sk1darzeliogrupesamziausintervalas.trim();
     }
 
-    public String getAtitinka1darželiuipriskirtateritorija() {
-        return atitinka1darželiuipriskirtateritorija;
+    public String getAtitinka1darzeliuipriskirtateritorija() {
+        return atitinka1darzeliuipriskirtateritorija;
     }
 
-    public void setAtitinka1darželiuipriskirtateritorija(String atitinka1darželiuipriskirtateritorija) {
-        this.atitinka1darželiuipriskirtateritorija = atitinka1darželiuipriskirtateritorija == null ? null : atitinka1darželiuipriskirtateritorija.trim();
+    public void setAtitinka1darzeliuipriskirtateritorija(String atitinka1darzeliuipriskirtateritorija) {
+        this.atitinka1darzeliuipriskirtateritorija = atitinka1darzeliuipriskirtateritorija == null ? null : atitinka1darzeliuipriskirtateritorija.trim();
     }
 
-    public String getSk1darželįlankobroliaiseserys() {
-        return sk1darželįlankobroliaiseserys;
+    public String getSk1darzelilankobroliaiseserys() {
+        return sk1darzelilankobroliaiseserys;
     }
 
-    public void setSk1darželįlankobroliaiseserys(String sk1darželįlankobroliaiseserys) {
-        this.sk1darželįlankobroliaiseserys = sk1darželįlankobroliaiseserys == null ? null : sk1darželįlankobroliaiseserys.trim();
+    public void setSk1darzelilankobroliaiseserys(String sk1darzelilankobroliaiseserys) {
+        this.sk1darzelilankobroliaiseserys = sk1darzelilankobroliaiseserys == null ? null : sk1darzelilankobroliaiseserys.trim();
     }
 
-    public String getTinkamųgrupių1darželyje() {
-        return tinkamųgrupių1darželyje;
+    public String getTinkamugrupiu1darzelyje() {
+        return tinkamugrupiu1darzelyje;
     }
 
-    public void setTinkamųgrupių1darželyje(String tinkamųgrupių1darželyje) {
-        this.tinkamųgrupių1darželyje = tinkamųgrupių1darželyje == null ? null : tinkamųgrupių1darželyje.trim();
+    public void setTinkamugrupiu1darzelyje(String tinkamugrupiu1darzelyje) {
+        this.tinkamugrupiu1darzelyje = tinkamugrupiu1darzelyje == null ? null : tinkamugrupiu1darzelyje.trim();
     }
 
-    public String getSk2pasirinktasdarželis() {
-        return sk2pasirinktasdarželis;
+    public String getSk2pasirinktasdarzelis() {
+        return sk2pasirinktasdarzelis;
     }
 
-    public void setSk2pasirinktasdarželis(String sk2pasirinktasdarželis) {
-        this.sk2pasirinktasdarželis = sk2pasirinktasdarželis == null ? null : sk2pasirinktasdarželis.trim();
+    public void setSk2pasirinktasdarzelis(String sk2pasirinktasdarzelis) {
+        this.sk2pasirinktasdarzelis = sk2pasirinktasdarzelis == null ? null : sk2pasirinktasdarzelis.trim();
     }
 
-    public String getSk2darželiovietaeilėje() {
-        return sk2darželiovietaeilėje;
+    public String getSk2darzeliovietaeileje() {
+        return sk2darzeliovietaeileje;
     }
 
-    public void setSk2darželiovietaeilėje(String sk2darželiovietaeilėje) {
-        this.sk2darželiovietaeilėje = sk2darželiovietaeilėje == null ? null : sk2darželiovietaeilėje.trim();
+    public void setSk2darzeliovietaeileje(String sk2darzeliovietaeileje) {
+        this.sk2darzeliovietaeileje = sk2darzeliovietaeileje == null ? null : sk2darzeliovietaeileje.trim();
     }
 
-    public String getSk2darželioseniūnija() {
-        return sk2darželioseniūnija;
+    public String getSk2darzelioseniunija() {
+        return sk2darzelioseniunija;
     }
 
-    public void setSk2darželioseniūnija(String sk2darželioseniūnija) {
-        this.sk2darželioseniūnija = sk2darželioseniūnija == null ? null : sk2darželioseniūnija.trim();
+    public void setSk2darzelioseniunija(String sk2darzelioseniunija) {
+        this.sk2darzelioseniunija = sk2darzelioseniunija == null ? null : sk2darzelioseniunija.trim();
     }
 
-    public String getSk2darželiogrupėsugdomojikalba() {
-        return sk2darželiogrupėsugdomojikalba;
+    public String getSk2darzeliogrupesugdomojikalba() {
+        return sk2darzeliogrupesugdomojikalba;
     }
 
-    public void setSk2darželiogrupėsugdomojikalba(String sk2darželiogrupėsugdomojikalba) {
-        this.sk2darželiogrupėsugdomojikalba = sk2darželiogrupėsugdomojikalba == null ? null : sk2darželiogrupėsugdomojikalba.trim();
+    public void setSk2darzeliogrupesugdomojikalba(String sk2darzeliogrupesugdomojikalba) {
+        this.sk2darzeliogrupesugdomojikalba = sk2darzeliogrupesugdomojikalba == null ? null : sk2darzeliogrupesugdomojikalba.trim();
     }
 
-    public String getSk2darželiogrupėsugdymometodika() {
-        return sk2darželiogrupėsugdymometodika;
+    public String getSk2darzeliogrupesugdymometodika() {
+        return sk2darzeliogrupesugdymometodika;
     }
 
-    public void setSk2darželiogrupėsugdymometodika(String sk2darželiogrupėsugdymometodika) {
-        this.sk2darželiogrupėsugdymometodika = sk2darželiogrupėsugdymometodika == null ? null : sk2darželiogrupėsugdymometodika.trim();
+    public void setSk2darzeliogrupesugdymometodika(String sk2darzeliogrupesugdymometodika) {
+        this.sk2darzeliogrupesugdymometodika = sk2darzeliogrupesugdymometodika == null ? null : sk2darzeliogrupesugdymometodika.trim();
     }
 
-    public String getSk2darželiogrupėstipas() {
-        return sk2darželiogrupėstipas;
+    public String getSk2darzeliogrupestipas() {
+        return sk2darzeliogrupestipas;
     }
 
-    public void setSk2darželiogrupėstipas(String sk2darželiogrupėstipas) {
-        this.sk2darželiogrupėstipas = sk2darželiogrupėstipas == null ? null : sk2darželiogrupėstipas.trim();
+    public void setSk2darzeliogrupestipas(String sk2darzeliogrupestipas) {
+        this.sk2darzeliogrupestipas = sk2darzeliogrupestipas == null ? null : sk2darzeliogrupestipas.trim();
     }
 
-    public String getSk2darželiogrupėsamžiausintervalas() {
-        return sk2darželiogrupėsamžiausintervalas;
+    public String getSk2darzeliogrupesamziausintervalas() {
+        return sk2darzeliogrupesamziausintervalas;
     }
 
-    public void setSk2darželiogrupėsamžiausintervalas(String sk2darželiogrupėsamžiausintervalas) {
-        this.sk2darželiogrupėsamžiausintervalas = sk2darželiogrupėsamžiausintervalas == null ? null : sk2darželiogrupėsamžiausintervalas.trim();
+    public void setSk2darzeliogrupesamziausintervalas(String sk2darzeliogrupesamziausintervalas) {
+        this.sk2darzeliogrupesamziausintervalas = sk2darzeliogrupesamziausintervalas == null ? null : sk2darzeliogrupesamziausintervalas.trim();
     }
 
-    public String getAtitinka2darželiuipriskirtateritorija() {
-        return atitinka2darželiuipriskirtateritorija;
+    public String getAtitinka2darzeliuipriskirtateritorija() {
+        return atitinka2darzeliuipriskirtateritorija;
     }
 
-    public void setAtitinka2darželiuipriskirtateritorija(String atitinka2darželiuipriskirtateritorija) {
-        this.atitinka2darželiuipriskirtateritorija = atitinka2darželiuipriskirtateritorija == null ? null : atitinka2darželiuipriskirtateritorija.trim();
+    public void setAtitinka2darzeliuipriskirtateritorija(String atitinka2darzeliuipriskirtateritorija) {
+        this.atitinka2darzeliuipriskirtateritorija = atitinka2darzeliuipriskirtateritorija == null ? null : atitinka2darzeliuipriskirtateritorija.trim();
     }
 
-    public String getSk2darželįlankobroliaiseserys() {
-        return sk2darželįlankobroliaiseserys;
+    public String getSk2darzelilankobroliaiseserys() {
+        return sk2darzelilankobroliaiseserys;
     }
 
-    public void setSk2darželįlankobroliaiseserys(String sk2darželįlankobroliaiseserys) {
-        this.sk2darželįlankobroliaiseserys = sk2darželįlankobroliaiseserys == null ? null : sk2darželįlankobroliaiseserys.trim();
+    public void setSk2darzelilankobroliaiseserys(String sk2darzelilankobroliaiseserys) {
+        this.sk2darzelilankobroliaiseserys = sk2darzelilankobroliaiseserys == null ? null : sk2darzelilankobroliaiseserys.trim();
     }
 
-    public String getTinkamųgrupių2darželyje() {
-        return tinkamųgrupių2darželyje;
+    public String getTinkamugrupiu2darzelyje() {
+        return tinkamugrupiu2darzelyje;
     }
 
-    public void setTinkamųgrupių2darželyje(String tinkamųgrupių2darželyje) {
-        this.tinkamųgrupių2darželyje = tinkamųgrupių2darželyje == null ? null : tinkamųgrupių2darželyje.trim();
+    public void setTinkamugrupiu2darzelyje(String tinkamugrupiu2darzelyje) {
+        this.tinkamugrupiu2darzelyje = tinkamugrupiu2darzelyje == null ? null : tinkamugrupiu2darzelyje.trim();
     }
 
-    public String getSk3pasirinktasdarželis() {
-        return sk3pasirinktasdarželis;
+    public String getSk3pasirinktasdarzelis() {
+        return sk3pasirinktasdarzelis;
     }
 
-    public void setSk3pasirinktasdarželis(String sk3pasirinktasdarželis) {
-        this.sk3pasirinktasdarželis = sk3pasirinktasdarželis == null ? null : sk3pasirinktasdarželis.trim();
+    public void setSk3pasirinktasdarzelis(String sk3pasirinktasdarzelis) {
+        this.sk3pasirinktasdarzelis = sk3pasirinktasdarzelis == null ? null : sk3pasirinktasdarzelis.trim();
     }
 
-    public String getSk3darželiovietaeilėje() {
-        return sk3darželiovietaeilėje;
+    public String getSk3darzeliovietaeileje() {
+        return sk3darzeliovietaeileje;
     }
 
-    public void setSk3darželiovietaeilėje(String sk3darželiovietaeilėje) {
-        this.sk3darželiovietaeilėje = sk3darželiovietaeilėje == null ? null : sk3darželiovietaeilėje.trim();
+    public void setSk3darzeliovietaeileje(String sk3darzeliovietaeileje) {
+        this.sk3darzeliovietaeileje = sk3darzeliovietaeileje == null ? null : sk3darzeliovietaeileje.trim();
     }
 
-    public String getSk3darželioseniūnija() {
-        return sk3darželioseniūnija;
+    public String getSk3darzelioseniunija() {
+        return sk3darzelioseniunija;
     }
 
-    public void setSk3darželioseniūnija(String sk3darželioseniūnija) {
-        this.sk3darželioseniūnija = sk3darželioseniūnija == null ? null : sk3darželioseniūnija.trim();
+    public void setSk3darzelioseniunija(String sk3darzelioseniunija) {
+        this.sk3darzelioseniunija = sk3darzelioseniunija == null ? null : sk3darzelioseniunija.trim();
     }
 
-    public String getSk3darželiogrupėsugdomojikalba() {
-        return sk3darželiogrupėsugdomojikalba;
+    public String getSk3darzeliogrupesugdomojikalba() {
+        return sk3darzeliogrupesugdomojikalba;
     }
 
-    public void setSk3darželiogrupėsugdomojikalba(String sk3darželiogrupėsugdomojikalba) {
-        this.sk3darželiogrupėsugdomojikalba = sk3darželiogrupėsugdomojikalba == null ? null : sk3darželiogrupėsugdomojikalba.trim();
+    public void setSk3darzeliogrupesugdomojikalba(String sk3darzeliogrupesugdomojikalba) {
+        this.sk3darzeliogrupesugdomojikalba = sk3darzeliogrupesugdomojikalba == null ? null : sk3darzeliogrupesugdomojikalba.trim();
     }
 
-    public String getSk3darželiogrupėsugdymometodika() {
-        return sk3darželiogrupėsugdymometodika;
+    public String getSk3darzeliogrupesugdymometodika() {
+        return sk3darzeliogrupesugdymometodika;
     }
 
-    public void setSk3darželiogrupėsugdymometodika(String sk3darželiogrupėsugdymometodika) {
-        this.sk3darželiogrupėsugdymometodika = sk3darželiogrupėsugdymometodika == null ? null : sk3darželiogrupėsugdymometodika.trim();
+    public void setSk3darzeliogrupesugdymometodika(String sk3darzeliogrupesugdymometodika) {
+        this.sk3darzeliogrupesugdymometodika = sk3darzeliogrupesugdymometodika == null ? null : sk3darzeliogrupesugdymometodika.trim();
     }
 
-    public String getSk3darželiogrupėstipas() {
-        return sk3darželiogrupėstipas;
+    public String getSk3darzeliogrupestipas() {
+        return sk3darzeliogrupestipas;
     }
 
-    public void setSk3darželiogrupėstipas(String sk3darželiogrupėstipas) {
-        this.sk3darželiogrupėstipas = sk3darželiogrupėstipas == null ? null : sk3darželiogrupėstipas.trim();
+    public void setSk3darzeliogrupestipas(String sk3darzeliogrupestipas) {
+        this.sk3darzeliogrupestipas = sk3darzeliogrupestipas == null ? null : sk3darzeliogrupestipas.trim();
     }
 
-    public String getSk3darželiogrupėsamžiausintervalas() {
-        return sk3darželiogrupėsamžiausintervalas;
+    public String getSk3darzeliogrupesamziausintervalas() {
+        return sk3darzeliogrupesamziausintervalas;
     }
 
-    public void setSk3darželiogrupėsamžiausintervalas(String sk3darželiogrupėsamžiausintervalas) {
-        this.sk3darželiogrupėsamžiausintervalas = sk3darželiogrupėsamžiausintervalas == null ? null : sk3darželiogrupėsamžiausintervalas.trim();
+    public void setSk3darzeliogrupesamziausintervalas(String sk3darzeliogrupesamziausintervalas) {
+        this.sk3darzeliogrupesamziausintervalas = sk3darzeliogrupesamziausintervalas == null ? null : sk3darzeliogrupesamziausintervalas.trim();
     }
 
-    public String getAtitinka3darželiuipriskirtateritorija() {
-        return atitinka3darželiuipriskirtateritorija;
+    public String getAtitinka3darzeliuipriskirtateritorija() {
+        return atitinka3darzeliuipriskirtateritorija;
     }
 
-    public void setAtitinka3darželiuipriskirtateritorija(String atitinka3darželiuipriskirtateritorija) {
-        this.atitinka3darželiuipriskirtateritorija = atitinka3darželiuipriskirtateritorija == null ? null : atitinka3darželiuipriskirtateritorija.trim();
+    public void setAtitinka3darzeliuipriskirtateritorija(String atitinka3darzeliuipriskirtateritorija) {
+        this.atitinka3darzeliuipriskirtateritorija = atitinka3darzeliuipriskirtateritorija == null ? null : atitinka3darzeliuipriskirtateritorija.trim();
     }
 
-    public String getSk3darželįlankobroliaiseserys() {
-        return sk3darželįlankobroliaiseserys;
+    public String getSk3darzelilankobroliaiseserys() {
+        return sk3darzelilankobroliaiseserys;
     }
 
-    public void setSk3darželįlankobroliaiseserys(String sk3darželįlankobroliaiseserys) {
-        this.sk3darželįlankobroliaiseserys = sk3darželįlankobroliaiseserys == null ? null : sk3darželįlankobroliaiseserys.trim();
+    public void setSk3darzelilankobroliaiseserys(String sk3darzelilankobroliaiseserys) {
+        this.sk3darzelilankobroliaiseserys = sk3darzelilankobroliaiseserys == null ? null : sk3darzelilankobroliaiseserys.trim();
     }
 
-    public String getTinkamųgrupių13darželyje() {
-        return tinkamųgrupių13darželyje;
+    public String getTinkamugrupiu13darzelyje() {
+        return tinkamugrupiu13darzelyje;
     }
 
-    public void setTinkamųgrupių13darželyje(String tinkamųgrupių13darželyje) {
-        this.tinkamųgrupių13darželyje = tinkamųgrupių13darželyje == null ? null : tinkamųgrupių13darželyje.trim();
+    public void setTinkamugrupiu13darzelyje(String tinkamugrupiu13darzelyje) {
+        this.tinkamugrupiu13darzelyje = tinkamugrupiu13darzelyje == null ? null : tinkamugrupiu13darzelyje.trim();
     }
 
-    public String getSk4pasirinktasdarželis() {
-        return sk4pasirinktasdarželis;
+    public String getSk4pasirinktasdarzelis() {
+        return sk4pasirinktasdarzelis;
     }
 
-    public void setSk4pasirinktasdarželis(String sk4pasirinktasdarželis) {
-        this.sk4pasirinktasdarželis = sk4pasirinktasdarželis == null ? null : sk4pasirinktasdarželis.trim();
+    public void setSk4pasirinktasdarzelis(String sk4pasirinktasdarzelis) {
+        this.sk4pasirinktasdarzelis = sk4pasirinktasdarzelis == null ? null : sk4pasirinktasdarzelis.trim();
     }
 
-    public String getSk4darželiovietaeilėje() {
-        return sk4darželiovietaeilėje;
+    public String getSk4darzeliovietaeileje() {
+        return sk4darzeliovietaeileje;
     }
 
-    public void setSk4darželiovietaeilėje(String sk4darželiovietaeilėje) {
-        this.sk4darželiovietaeilėje = sk4darželiovietaeilėje == null ? null : sk4darželiovietaeilėje.trim();
+    public void setSk4darzeliovietaeileje(String sk4darzeliovietaeileje) {
+        this.sk4darzeliovietaeileje = sk4darzeliovietaeileje == null ? null : sk4darzeliovietaeileje.trim();
     }
 
-    public String getSk4darželioseniūnija() {
-        return sk4darželioseniūnija;
+    public String getSk4darzelioseniunija() {
+        return sk4darzelioseniunija;
     }
 
-    public void setSk4darželioseniūnija(String sk4darželioseniūnija) {
-        this.sk4darželioseniūnija = sk4darželioseniūnija == null ? null : sk4darželioseniūnija.trim();
+    public void setSk4darzelioseniunija(String sk4darzelioseniunija) {
+        this.sk4darzelioseniunija = sk4darzelioseniunija == null ? null : sk4darzelioseniunija.trim();
     }
 
-    public String getSk4darželiogrupėsugdomojikalba() {
-        return sk4darželiogrupėsugdomojikalba;
+    public String getSk4darzeliogrupesugdomojikalba() {
+        return sk4darzeliogrupesugdomojikalba;
     }
 
-    public void setSk4darželiogrupėsugdomojikalba(String sk4darželiogrupėsugdomojikalba) {
-        this.sk4darželiogrupėsugdomojikalba = sk4darželiogrupėsugdomojikalba == null ? null : sk4darželiogrupėsugdomojikalba.trim();
+    public void setSk4darzeliogrupesugdomojikalba(String sk4darzeliogrupesugdomojikalba) {
+        this.sk4darzeliogrupesugdomojikalba = sk4darzeliogrupesugdomojikalba == null ? null : sk4darzeliogrupesugdomojikalba.trim();
     }
 
-    public String getSk4darželiogrupėsugdymometodika() {
-        return sk4darželiogrupėsugdymometodika;
+    public String getSk4darzeliogrupesugdymometodika() {
+        return sk4darzeliogrupesugdymometodika;
     }
 
-    public void setSk4darželiogrupėsugdymometodika(String sk4darželiogrupėsugdymometodika) {
-        this.sk4darželiogrupėsugdymometodika = sk4darželiogrupėsugdymometodika == null ? null : sk4darželiogrupėsugdymometodika.trim();
+    public void setSk4darzeliogrupesugdymometodika(String sk4darzeliogrupesugdymometodika) {
+        this.sk4darzeliogrupesugdymometodika = sk4darzeliogrupesugdymometodika == null ? null : sk4darzeliogrupesugdymometodika.trim();
     }
 
-    public String getSk4darželiogrupėstipas() {
-        return sk4darželiogrupėstipas;
+    public String getSk4darzeliogrupestipas() {
+        return sk4darzeliogrupestipas;
     }
 
-    public void setSk4darželiogrupėstipas(String sk4darželiogrupėstipas) {
-        this.sk4darželiogrupėstipas = sk4darželiogrupėstipas == null ? null : sk4darželiogrupėstipas.trim();
+    public void setSk4darzeliogrupestipas(String sk4darzeliogrupestipas) {
+        this.sk4darzeliogrupestipas = sk4darzeliogrupestipas == null ? null : sk4darzeliogrupestipas.trim();
     }
 
-    public String getSk4darželiogrupėsamžiausintervalas() {
-        return sk4darželiogrupėsamžiausintervalas;
+    public String getSk4darzeliogrupesamziausintervalas() {
+        return sk4darzeliogrupesamziausintervalas;
     }
 
-    public void setSk4darželiogrupėsamžiausintervalas(String sk4darželiogrupėsamžiausintervalas) {
-        this.sk4darželiogrupėsamžiausintervalas = sk4darželiogrupėsamžiausintervalas == null ? null : sk4darželiogrupėsamžiausintervalas.trim();
+    public void setSk4darzeliogrupesamziausintervalas(String sk4darzeliogrupesamziausintervalas) {
+        this.sk4darzeliogrupesamziausintervalas = sk4darzeliogrupesamziausintervalas == null ? null : sk4darzeliogrupesamziausintervalas.trim();
     }
 
-    public String getAtitinka4darželiuipriskirtateritorija() {
-        return atitinka4darželiuipriskirtateritorija;
+    public String getAtitinka4darzeliuipriskirtateritorija() {
+        return atitinka4darzeliuipriskirtateritorija;
     }
 
-    public void setAtitinka4darželiuipriskirtateritorija(String atitinka4darželiuipriskirtateritorija) {
-        this.atitinka4darželiuipriskirtateritorija = atitinka4darželiuipriskirtateritorija == null ? null : atitinka4darželiuipriskirtateritorija.trim();
+    public void setAtitinka4darzeliuipriskirtateritorija(String atitinka4darzeliuipriskirtateritorija) {
+        this.atitinka4darzeliuipriskirtateritorija = atitinka4darzeliuipriskirtateritorija == null ? null : atitinka4darzeliuipriskirtateritorija.trim();
     }
 
-    public String getSk4darželįlankobroliaiseserys() {
-        return sk4darželįlankobroliaiseserys;
+    public String getSk4darzelilankobroliaiseserys() {
+        return sk4darzelilankobroliaiseserys;
     }
 
-    public void setSk4darželįlankobroliaiseserys(String sk4darželįlankobroliaiseserys) {
-        this.sk4darželįlankobroliaiseserys = sk4darželįlankobroliaiseserys == null ? null : sk4darželįlankobroliaiseserys.trim();
+    public void setSk4darzelilankobroliaiseserys(String sk4darzelilankobroliaiseserys) {
+        this.sk4darzelilankobroliaiseserys = sk4darzelilankobroliaiseserys == null ? null : sk4darzelilankobroliaiseserys.trim();
     }
 
-    public String getTinkamųgrupių4darželyje() {
-        return tinkamųgrupių4darželyje;
+    public String getTinkamugrupiu4darzelyje() {
+        return tinkamugrupiu4darzelyje;
     }
 
-    public void setTinkamųgrupių4darželyje(String tinkamųgrupių4darželyje) {
-        this.tinkamųgrupių4darželyje = tinkamųgrupių4darželyje == null ? null : tinkamųgrupių4darželyje.trim();
+    public void setTinkamugrupiu4darzelyje(String tinkamugrupiu4darzelyje) {
+        this.tinkamugrupiu4darzelyje = tinkamugrupiu4darzelyje == null ? null : tinkamugrupiu4darzelyje.trim();
     }
 
-    public String getSk5pasirinktasdarželis() {
-        return sk5pasirinktasdarželis;
+    public String getSk5pasirinktasdarzelis() {
+        return sk5pasirinktasdarzelis;
     }
 
-    public void setSk5pasirinktasdarželis(String sk5pasirinktasdarželis) {
-        this.sk5pasirinktasdarželis = sk5pasirinktasdarželis == null ? null : sk5pasirinktasdarželis.trim();
+    public void setSk5pasirinktasdarzelis(String sk5pasirinktasdarzelis) {
+        this.sk5pasirinktasdarzelis = sk5pasirinktasdarzelis == null ? null : sk5pasirinktasdarzelis.trim();
     }
 
-    public String getSk5darželiovietaeilėje() {
-        return sk5darželiovietaeilėje;
+    public String getSk5darzeliovietaeileje() {
+        return sk5darzeliovietaeileje;
     }
 
-    public void setSk5darželiovietaeilėje(String sk5darželiovietaeilėje) {
-        this.sk5darželiovietaeilėje = sk5darželiovietaeilėje == null ? null : sk5darželiovietaeilėje.trim();
+    public void setSk5darzeliovietaeileje(String sk5darzeliovietaeileje) {
+        this.sk5darzeliovietaeileje = sk5darzeliovietaeileje == null ? null : sk5darzeliovietaeileje.trim();
     }
 
-    public String getSk5darželioseniūnija() {
-        return sk5darželioseniūnija;
+    public String getSk5darzelioseniunija() {
+        return sk5darzelioseniunija;
     }
 
-    public void setSk5darželioseniūnija(String sk5darželioseniūnija) {
-        this.sk5darželioseniūnija = sk5darželioseniūnija == null ? null : sk5darželioseniūnija.trim();
+    public void setSk5darzelioseniunija(String sk5darzelioseniunija) {
+        this.sk5darzelioseniunija = sk5darzelioseniunija == null ? null : sk5darzelioseniunija.trim();
     }
 
-    public String getSk5darželiogrupėsugdomojikalba() {
-        return sk5darželiogrupėsugdomojikalba;
+    public String getSk5darzeliogrupesugdomojikalba() {
+        return sk5darzeliogrupesugdomojikalba;
     }
 
-    public void setSk5darželiogrupėsugdomojikalba(String sk5darželiogrupėsugdomojikalba) {
-        this.sk5darželiogrupėsugdomojikalba = sk5darželiogrupėsugdomojikalba == null ? null : sk5darželiogrupėsugdomojikalba.trim();
+    public void setSk5darzeliogrupesugdomojikalba(String sk5darzeliogrupesugdomojikalba) {
+        this.sk5darzeliogrupesugdomojikalba = sk5darzeliogrupesugdomojikalba == null ? null : sk5darzeliogrupesugdomojikalba.trim();
     }
 
-    public String getSk5darželiogrupėsugdymometodika() {
-        return sk5darželiogrupėsugdymometodika;
+    public String getSk5darzeliogrupesugdymometodika() {
+        return sk5darzeliogrupesugdymometodika;
     }
 
-    public void setSk5darželiogrupėsugdymometodika(String sk5darželiogrupėsugdymometodika) {
-        this.sk5darželiogrupėsugdymometodika = sk5darželiogrupėsugdymometodika == null ? null : sk5darželiogrupėsugdymometodika.trim();
+    public void setSk5darzeliogrupesugdymometodika(String sk5darzeliogrupesugdymometodika) {
+        this.sk5darzeliogrupesugdymometodika = sk5darzeliogrupesugdymometodika == null ? null : sk5darzeliogrupesugdymometodika.trim();
     }
 
-    public String getSk5darželiogrupėstipas() {
-        return sk5darželiogrupėstipas;
+    public String getSk5darzeliogrupestipas() {
+        return sk5darzeliogrupestipas;
     }
 
-    public void setSk5darželiogrupėstipas(String sk5darželiogrupėstipas) {
-        this.sk5darželiogrupėstipas = sk5darželiogrupėstipas == null ? null : sk5darželiogrupėstipas.trim();
+    public void setSk5darzeliogrupestipas(String sk5darzeliogrupestipas) {
+        this.sk5darzeliogrupestipas = sk5darzeliogrupestipas == null ? null : sk5darzeliogrupestipas.trim();
     }
 
-    public String getSk5darželiogrupėsamžiausintervalas() {
-        return sk5darželiogrupėsamžiausintervalas;
+    public String getSk5darzeliogrupesamziausintervalas() {
+        return sk5darzeliogrupesamziausintervalas;
     }
 
-    public void setSk5darželiogrupėsamžiausintervalas(String sk5darželiogrupėsamžiausintervalas) {
-        this.sk5darželiogrupėsamžiausintervalas = sk5darželiogrupėsamžiausintervalas == null ? null : sk5darželiogrupėsamžiausintervalas.trim();
+    public void setSk5darzeliogrupesamziausintervalas(String sk5darzeliogrupesamziausintervalas) {
+        this.sk5darzeliogrupesamziausintervalas = sk5darzeliogrupesamziausintervalas == null ? null : sk5darzeliogrupesamziausintervalas.trim();
     }
 
-    public String getAtitinka5darželiuipriskirtateritorija() {
-        return atitinka5darželiuipriskirtateritorija;
+    public String getAtitinka5darzeliuipriskirtateritorija() {
+        return atitinka5darzeliuipriskirtateritorija;
     }
 
-    public void setAtitinka5darželiuipriskirtateritorija(String atitinka5darželiuipriskirtateritorija) {
-        this.atitinka5darželiuipriskirtateritorija = atitinka5darželiuipriskirtateritorija == null ? null : atitinka5darželiuipriskirtateritorija.trim();
+    public void setAtitinka5darzeliuipriskirtateritorija(String atitinka5darzeliuipriskirtateritorija) {
+        this.atitinka5darzeliuipriskirtateritorija = atitinka5darzeliuipriskirtateritorija == null ? null : atitinka5darzeliuipriskirtateritorija.trim();
     }
 
-    public String getSk5darželįlankobroliaiseserys() {
-        return sk5darželįlankobroliaiseserys;
+    public String getSk5darzelilankobroliaiseserys() {
+        return sk5darzelilankobroliaiseserys;
     }
 
-    public void setSk5darželįlankobroliaiseserys(String sk5darželįlankobroliaiseserys) {
-        this.sk5darželįlankobroliaiseserys = sk5darželįlankobroliaiseserys == null ? null : sk5darželįlankobroliaiseserys.trim();
+    public void setSk5darzelilankobroliaiseserys(String sk5darzelilankobroliaiseserys) {
+        this.sk5darzelilankobroliaiseserys = sk5darzelilankobroliaiseserys == null ? null : sk5darzelilankobroliaiseserys.trim();
     }
 
-    public String getTinkamųgrupių5darželyje() {
-        return tinkamųgrupių5darželyje;
+    public String getTinkamugrupiu5darzelyje() {
+        return tinkamugrupiu5darzelyje;
     }
 
-    public void setTinkamųgrupių5darželyje(String tinkamųgrupių5darželyje) {
-        this.tinkamųgrupių5darželyje = tinkamųgrupių5darželyje == null ? null : tinkamųgrupių5darželyje.trim();
+    public void setTinkamugrupiu5darzelyje(String tinkamugrupiu5darzelyje) {
+        this.tinkamugrupiu5darzelyje = tinkamugrupiu5darzelyje == null ? null : tinkamugrupiu5darzelyje.trim();
     }
 }
