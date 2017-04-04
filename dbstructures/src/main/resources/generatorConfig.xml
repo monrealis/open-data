@@ -4,11 +4,10 @@
   "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 <generatorConfiguration>
     <context id="DB2Tables" targetRuntime="MyBatis3">
-        <commentGenerator >
-            <property name="suppressAllComments" value="true"/>
+        <commentGenerator>
+            <property name="suppressAllComments" value="true" />
         </commentGenerator>
-        <jdbcConnection driverClass="org.h2.Driver" connectionURL="jdbc:h2:~/test"
-            userId="sa" password="">
+        <jdbcConnection driverClass="org.h2.Driver" connectionURL="jdbc:h2:~/test" userId="sa" password="">
         </jdbcConnection>
 
         <javaTypeResolver>
@@ -23,5 +22,7 @@
         <table tableName="prasymai" domainObjectName="Prasymas">
         </table>
 
+        <table tableName="prioritetai" domainObjectName="Prioritetas">
+        </table>
     </context>
 </generatorConfiguration>
