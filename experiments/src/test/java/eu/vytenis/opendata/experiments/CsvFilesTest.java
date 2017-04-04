@@ -1,6 +1,7 @@
 package eu.vytenis.opendata.experiments;
 
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assume.assumeTrue;
 
 import java.io.File;
 import java.nio.file.Files;
@@ -11,6 +12,7 @@ import org.junit.Test;
 public class CsvFilesTest {
     @Test
     public void allFilesArePresent() {
+        assumeTrue(new File(CsvFiles.DIR).exists());
         assertReadable(CsvFiles.darzeliai());
         assertReadable(CsvFiles.darzeliaiGrupes());
         assertReadable(CsvFiles.grupes());

@@ -1,7 +1,7 @@
 package eu.vytenis.opendata.experiments;
 
 public class CsvFiles {
-    private static final String DIR = "../modules/vilnius/darzeliai/data/";
+    public static final String DIR = "../modules/vilnius/darzeliai/data/";
     private static final String DARZELIAI = DIR + "darzeliai.csv";
     private static final String DARZELIAI_GRUPES = DIR + "darzeliai_grupes.csv";
     private static final String GRUPES = DIR + "grupes.csv";
