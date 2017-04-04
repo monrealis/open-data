@@ -13,7 +13,10 @@ public class ValidColumnNameFinder {
         name = name.replaceAll("/", "");
         if (name.matches("^[0-9].*"))
             name = "_sk" + name;
-        return translateLithuanianCharacters(name);
+        name = translateLithuanianCharacters(name);
+        if (name.toLowerCase().equals("rownum"))
+            name = "rownum_";
+        return name;
     }
 
     private String translateLithuanianCharacters(String name) {

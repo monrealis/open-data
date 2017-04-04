@@ -28,6 +28,7 @@ public class UploaderTest {
     private String tableName;
     private CsvSqls csv;
     private PreparedStatement insertStatement;
+    private char delimiter = ',';
 
     @Before
     public void before() throws ClassNotFoundException, SQLException {
@@ -52,6 +53,12 @@ public class UploaderTest {
         fill(CsvFiles.prasymai(), "prasymai");
     }
 
+    @Test
+    public void prioritetai() throws IOException, SQLException {
+        delimiter = ';';
+        fill(CsvFiles.prioritetai(), "prioritetai");
+    }
+
     private void fill(String filename, String tableName) throws FileNotFoundException, IOException, SQLException {
         input = loadCsv(filename);
         this.tableName = tableName;
@@ -69,7 +76,8 @@ public class UploaderTest {
         FileInputStream fis = new FileInputStream(file);
         BOMInputStream bis = new BOMInputStream(fis);
         Reader reader = new InputStreamReader(bis, StandardCharsets.UTF_8);
-        CSVParser csv = CSVFormat.EXCEL.withFirstRecordAsHeader().parse(reader);
+        CSVFormat format = CSVFormat.EXCEL.withFirstRecordAsHeader();
+        CSVParser csv = format.withDelimiter(delimiter).parse(reader);
         return csv;
     }
 
