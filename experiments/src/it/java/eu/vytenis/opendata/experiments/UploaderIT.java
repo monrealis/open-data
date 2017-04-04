@@ -21,7 +21,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class UploaderTest {
+public class UploaderIT {
     private Connection connection;
     private Statement statement;
     private CSVParser input;
