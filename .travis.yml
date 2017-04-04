@@ -1,2 +1,4 @@
 language: java
-jdk: openjdk6
+jdk: openjdk8
+git:
+  submodules: false
